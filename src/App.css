@@ -1,0 +1,65 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+p a{
+  text-decoration: none;
+}
+.content {
+  flex: 1;
+  /* padding: 1em;
+  background-image: url(https://watermark.lovepik.com/photo/40015/5854.jpg_wh1200.jpg);
+  background-position: center; /* Center the image */
+  /* background-repeat: no-repeat; /* Do not repeat the image */
+  /* background-size: 100% 100%;  */ 
+}
+.loginComponent{
+  background-image: url(https://watermark.lovepik.com/photo/40015/5854.jpg_wh1200.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* min-height: 100vh; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-div{
+  width: 400px;
+  margin: 70px auto;
+  background-color: #4644414d !important;
+  box-shadow: 0 6px 37px 0 rgb(0 0 0 / 95%), 0 23px 43px 0 rgb(33 31 31 / 98%) !important;
+  border: 2px solid whitesmoke !important;
+  /* text-align: center; */
+}
+.form{
+  width: 350px;
+  margin: 20px auto;
+}
+.form input{
+  background-color: #ffffff8c !important;
+  box-shadow: 0 6px 37px 0 rgb(0 0 0 / 95%), 0 23px 43px 0 rgb(33 31 31 / 98%) !important;
+  
+}
+.form input:hover{
+  border: 2px solid lightgreen;
+}
+label{
+  color: white;
+}
+nav a {
+  color: lightgreen !important;
+  text-decoration: none;
+}
+li button {
+  color: lightgreen !important;
+}
+li span{
+  color: orange !important;
+}
+
+
+nav a :hover{
+  color: white !important;
+}
